@@ -42,6 +42,7 @@ node -e "import OpenAI from 'openai'; const client = new OpenAI({ apiKey: proces
 If everything is configured correctly, you will see a response from OpenAI such as:
 
 ```
-{ role: 'assistant', content: "Who's there?", refusal: null, annotations: []}```
+{ role: 'assistant', content: "Who's there?", refusal: null, annotations: []}
+```
 
 If you are still having trouble, please open an issue on the [GitHub repository](https://github.com/resonatehq-examples/openai-deep-research-agent-ts/issues).
