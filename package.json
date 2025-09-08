@@ -1,0 +1,23 @@
+{
+  "name": "example-openai-deep-research-agent-ts",
+  "version": "1.0.0",
+  "description": "A recursive **Deep Research Assistant** powered by OpenAI and Resonate's Distributed Async Await.",
+  "main": "dist/research.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx research.ts",
+    "start": "node dist/research.js"
+  },
+  "dependencies": {
+    "@resonatehq/sdk": "^0.7.1",
+    "openai": "^5.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
