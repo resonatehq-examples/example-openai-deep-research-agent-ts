@@ -31,7 +31,7 @@ export OPENAI_API_KEY="sk-..."
 ts-node research.ts
 ```
 
-## Trouble Shooting
+## Troubleshooting
 
 The Deep Research Agent depends on OpenAI and the OpenAI TypeScript and JavaScript  SDK. If you are having trouble, verify that your OpenAI credentials are configured correctly and the model is accessible by running the following command in the project's directory:
 
