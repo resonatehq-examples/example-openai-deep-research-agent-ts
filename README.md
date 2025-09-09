@@ -28,7 +28,7 @@ export OPENAI_API_KEY="sk-..."
 ### 3. Run the Agent
 
 ```
-ts-node research.ts
+npm run dev
 ```
 
 ## Troubleshooting
