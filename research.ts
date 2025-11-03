@@ -113,7 +113,7 @@ async function main() {
 	const depth = depthArg ? parseInt(depthArg, 10) : 1;
 
 	if (!promiseId || !topic) {
-		console.error("Usage: node script.js <promiseId> <topic> [depth]");
+		console.error("Usage: bun research.ts <promiseId> <topic> [depth]");
 		process.exit(1);
 	}
 
