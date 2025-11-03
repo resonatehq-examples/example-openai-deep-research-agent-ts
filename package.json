@@ -1,23 +1,22 @@
 {
-  "name": "example-openai-deep-research-agent-ts",
-  "version": "1.0.0",
-  "description": "A recursive **Deep Research Assistant** powered by OpenAI and Resonate's Distributed Async Await.",
-  "main": "dist/research.js",
-  "scripts": {
-    "build": "tsc",
-    "dev": "tsx research.ts",
-    "start": "node dist/research.js"
-  },
-  "dependencies": {
-    "@resonatehq/sdk": "^0.7.1",
-    "openai": "^5.19.1"
-  },
-  "devDependencies": {
-    "@types/node": "^24.3.1",
-    "tsx": "^4.20.5",
-    "typescript": "^5.9.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+	"name": "example-openai-deep-research-agent-ts",
+	"version": "1.0.0",
+	"description": "A recursive **Deep Research Assistant** powered by OpenAI and Resonate's Distributed Async Await.",
+	"type": "commonjs",
+	"private": true,
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"check": "npx @biomejs/biome check",
+		"fmt": "npx @biomejs/biome check --write"
+	},
+	"dependencies": {
+		"@resonatehq/sdk": "^0.8.5",
+		"openai": "^6.6.0"
+	},
+	"devDependencies": {
+		"@types/node": "^24.9.0",
+		"typescript": "^5.9.3"
+	}
 }
