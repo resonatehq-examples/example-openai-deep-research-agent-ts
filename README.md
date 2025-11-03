@@ -1,10 +1,10 @@
-# Deep Research Assistant
+# Deep Research Agent
 
-A distributed, recursive Deep Research Agent powered by Resonate and OpenAI. This example demonstrates how complex, distributed agentic applications can be implemented with simple code.
+A Research Agent powered by Resonate and OpenAI. The Research Agent is a distributed, recursive agent that breaks a research topic into subtopics, researches each subtopic recursively, and synthesizes the results.
 
-## Use Case
+<video src="doc/research-agent.mov" controls width="100%"></video>
 
-Given a topic, the Deep Research Agent decomposes the topic into subtopics, and recursively invokes itself (via OpenAI parallel tool calling) on each subtopic.
+This example demonstrates how complex, distributed agentic applications can be implemented with simple code in Resonate's Distributed Async Await.
 
 ---
 
@@ -33,7 +33,7 @@ bun research.ts
 
 ## Troubleshooting
 
-The Deep Research Agent depends on OpenAI and the OpenAI TypeScript and JavaScript  SDK. If you are having trouble, verify that your OpenAI credentials are configured correctly and the model is accessible by running the following command in the project's directory:
+The Deep Research Agent depends on OpenAI and the OpenAI TypeScript and JavaScript SDK. If you are having trouble, verify that your OpenAI credentials are configured correctly and the model is accessible by running the following command in the project's directory:
 
 ```
 node -e "import OpenAI from 'openai'; const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY }); (async () => { const res = await client.chat.completions.create({ model: 'gpt-5', messages: [{ role: 'user', content: 'knock knock' }] }); console.log(res.choices[0].message); })();"
