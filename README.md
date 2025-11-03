@@ -28,7 +28,7 @@ export OPENAI_API_KEY="sk-..."
 ### 3. Run the Agent
 
 ```
-bun research.ts
+bun research.ts <promiseId> <topic> [depth]
 ```
 
 ## Troubleshooting
