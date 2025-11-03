@@ -108,11 +108,16 @@ function* research(
 const researchFunction = resonate.register("research", research);
 
 async function main() {
-	return await researchFunction.run(
-		"research.1",
-		"What are the defining characteristics of distributed systems",
-		1,
-	);
+	// Extract CLI arguments (after the first two which are node and filename)
+	const [promiseId, topic, depthArg] = process.argv.slice(2);
+	const depth = depthArg ? parseInt(depthArg, 10) : 1;
+
+	if (!promiseId || !topic) {
+		console.error("Usage: node script.js <promiseId> <topic> [depth]");
+		process.exit(1);
+	}
+
+	return await researchFunction.run(promiseId, topic, depth);
 }
 
 main()
