@@ -2,7 +2,7 @@
 
 A Research Agent powered by Resonate and OpenAI. The Research Agent is a distributed, recursive agent that breaks a research topic into subtopics, researches each subtopic recursively, and synthesizes the results.
 
-<video src="doc/research-agent.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/6230bf05-aae8-40dc-9169-a5704e2c5b96
 
 This example demonstrates how complex, distributed agentic applications can be implemented with simple code in Resonate's Distributed Async Await.
 
