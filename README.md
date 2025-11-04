@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/cf466675-def3-4226-9233-a680cd7e9ecb
 
 **Key concepts:**
 - **Concurrent Execution**: Multiple subtopics are researched concurrently via `ctx.beginRpc`
-- **Coordination**: Handles are collected first, then awaited together (a.k.a fork/join pattern or fan-out/fan-in pattern)
+- **Coordination**: Handles are collected first, then awaited together (a.k.a fork/join, fan-out/fan-in)
 - **Depth control**: Recursion stops when `depth` reaches 0
 
 ---
