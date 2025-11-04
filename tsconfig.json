@@ -12,5 +12,5 @@
 		"moduleResolution": "node",
 		"types": ["node"]
 	},
-	"include": ["research.ts"]
+	"include": ["index.ts", "agent.ts"]
 }
