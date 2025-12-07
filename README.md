@@ -81,7 +81,7 @@ npm install
 ### 3. Run the Agent locally, without durability
 
 ```
-npx tsx index.ts <id> <topic> [depth]
+npx tsx src/index.ts <id> <topic> [depth]
 ```
 
 Example:
