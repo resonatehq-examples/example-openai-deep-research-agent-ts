@@ -12,7 +12,7 @@
     "check": "npx @biomejs/biome check"
   },
   "dependencies": {
-    "@resonatehq/sdk": "^0.9.1",
+    "@resonatehq/sdk": "^0.10.0",
     "openai": "^6.6.0"
   },
   "devDependencies": {

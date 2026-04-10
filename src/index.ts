@@ -2,7 +2,7 @@
 import { Resonate } from "@resonatehq/sdk";
 import { research } from "./agent";
 
-const resonate = Resonate.local();
+const resonate = new Resonate();
 
 const researchFunction = resonate.register("research", research);
 
