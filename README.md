@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Deep Research Agent — Resonate example" />
+</p>
+
 # Deep Research Agent
 
 A Research Agent powered by Resonate and OpenAI. The Research Agent is a distributed, recursive agent that breaks a research topic into subtopics, researches each subtopic recursively, and synthesizes the results.
